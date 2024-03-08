@@ -9,8 +9,9 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			//Write your code here
-			
+			let newArr = arr.sort();
+			let reverseArr = newArr.reverse();
+			return reverseArr[1];
 		}
 
 		function Main() {
@@ -22,6 +23,8 @@
 			alert(secondHighest(arr));
 		}
 		Main();
+
+		
 	</script>
 
     <script type="text/javascript" src="./script.js">
